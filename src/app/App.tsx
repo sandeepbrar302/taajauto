@@ -104,7 +104,7 @@ export default function App() {
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
             Experience excellence in automotive sales. Quality vehicles, trusted service, and competitive pricing.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
             <a
               href="#contact"
               className="bg-white text-primary px-8 py-4 rounded-lg hover:bg-white/90 transition-colors inline-flex items-center justify-center gap-2"
@@ -117,6 +117,13 @@ export default function App() {
             >
               <Phone className="w-5 h-5" />
               514-569-7730
+            </a>
+            <a
+              href="tel:5142442044"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary transition-colors inline-flex items-center justify-center gap-2"
+            >
+              <Phone className="w-5 h-5" />
+              514-244-2044
             </a>
           </div>
         </div>
@@ -288,8 +295,8 @@ export default function App() {
                     <div>
                       <h4 className="mb-1">Location</h4>
                       <p className="text-muted-foreground">
-                        786 Grand Boulevard<br />
-                        Île-Perrot, QC
+                        386 Grand Boulevard<br />
+                        L'Île-Perrot, QC J7V 4X2
                       </p>
                     </div>
                   </div>
@@ -314,8 +321,8 @@ export default function App() {
                     <div>
                       <h4 className="mb-1">Email</h4>
                       <p className="text-muted-foreground">
-                        <a href="mailto:taajauto@gmail.com" className="hover:text-primary transition-colors">
-                          taajauto@gmail.com
+                        <a href="mailto:autotaaj@gmail.com" className="hover:text-primary transition-colors">
+                          autotaaj@gmail.com
                         </a>
                       </p>
                     </div>
@@ -393,12 +400,12 @@ export default function App() {
             <div>
               <h4 className="mb-4">Connect With Us</h4>
               <div className="space-y-2 text-primary-foreground/80">
-                <p>786 Grand Boulevard, Île-Perrot</p>
+                <p>386 Grand Boulevard, L'Île-Perrot, QC J7V 4X2</p>
                 <p>
                   <a href="tel:5145697730" className="hover:text-white transition-colors">514-569-7730</a>
                 </p>
                 <p>
-                  <a href="mailto:taajauto@gmail.com" className="hover:text-white transition-colors">taajauto@gmail.com</a>
+                  <a href="mailto:autotaaj@gmail.com" className="hover:text-white transition-colors">autotaaj@gmail.com</a>
                 </p>
                 <p>
                   <a
